@@ -1,6 +1,8 @@
 import sys
 import re
-
+"""
+生成新项目前执行
+"""
 
 def is_module_name_valid(module_name):
     pattern = re.compile(r"^[a-zA-Z_][a-zA-Z0-9-_]{,20}$")
